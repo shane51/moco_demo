@@ -1,0 +1,47 @@
+[
+  {
+    "description": "用户成功登录byForm",
+    "request": {
+      "method": "POST",
+      "uri": "/api/login",
+      "forms" :
+        {
+          "email" : "form@tw.com",
+          "password" : "pass1234"
+        }
+    },
+    "response": {
+      "status" : "200"
+    }
+  },
+  {
+    "description": "用户成功登录ByJSON",
+    "request": {
+      "method": "POST",
+      "uri": "/api/login",
+      "json" :
+        {
+          "email" : "json@tw.com",
+          "password" : "pass1234"
+        }
+    },
+    "response": {
+      "status" : "200"
+    }
+  },
+  {
+    "description": "错误用户登录失败",
+    "request": {
+      "method": "POST",
+      "uri": "/api/login",
+      "json" :
+        {
+          "email" : "json@tw.com",
+          "password" : "pass123"
+        }
+    },
+    "response": {
+      "status" : "401"
+    }
+  }
+]
