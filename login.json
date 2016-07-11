@@ -11,7 +11,11 @@
         }
     },
     "response": {
-      "status" : 200
+      "status" : 200,
+      "json" : {
+        "status" : "1",
+        "msg" : "login sucess"
+      }
     }
   },
   {
