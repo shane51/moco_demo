@@ -34,13 +34,13 @@
     }
   },
   {
-    "description": "错误用户登录失败",
+    "description": "错误用户登录失败ByForm",
     "request": {
       "method": "POST",
       "uri": "/api/login",
-      "json" :
+      "forms" :
         {
-          "email" : "json@tw.com",
+          "email" : "form@tw.com",
           "password" : "pass123"
         }
     },

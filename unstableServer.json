@@ -1,0 +1,18 @@
+[
+  {
+    "description": "用Proxy增强不稳定服务器",
+    "request": {
+      "uri": {
+        "match" : "/proxy/.*"
+      }
+    },
+    "response": {
+      "proxy":
+      {
+        "from" : "/proxy",
+        "to" : "http://www.github.com",
+        "failover" : "failover.json"
+      }
+    }
+  }
+]
