@@ -15,6 +15,6 @@ Under Windows, please download and use [Moco standalone runner](https://repo1.ma
 
 [AndroidStartupKit](https://github.com/shane51/AndroidStartupKit)
 
-###Next plan
+### Next plan
 - ~~Add globe settings~~
 - more useful scenarios
