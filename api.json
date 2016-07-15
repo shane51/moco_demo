@@ -1,0 +1,14 @@
+[
+  {
+    "include": "api/getlist.json"
+  },
+  {
+    "include": "api/login.json"
+  },
+  {
+    "include": "api/signup.json"
+  },
+  {
+    "include": "api/unstableServer.json"
+  }
+]
