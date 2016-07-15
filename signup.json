@@ -1,19 +1,19 @@
 [
   {
-    "description": "用户成功登录byForm",
+    "description": "用户成功注册byForm",
     "request": {
       "method": "POST",
       "uri": "/api/signup",
       "forms" :
         {
           "phoneNumber" : "13912345678",
-          "smsVerificationCode": "298382",
+          "smsVerificationCode" : "298382"
         }
     },
     "response": {
       "status": 201,
       "json": {
-        "tokenId": "{token-id}"
+        "tokenId" : "{token-id}"
       }
     }
   }
