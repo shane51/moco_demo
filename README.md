@@ -11,8 +11,13 @@ Under Windows, please download and use [Moco standalone runner](https://repo1.ma
 
 `java -jar moco-runner-<version>-standalone.jar -p 3000 -c login.json`
 
+### Start moco with Globe settings
 
+`./startMoco.sh`
 
-###Next plan
+### Demo android app
+[AndroidStartupKit](https://github.com/shane51/AndroidStartupKit)
+
+### Next plan
 - Add globe settings
 - more useful scenarios
