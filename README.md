@@ -11,8 +11,10 @@ Under Windows, please download and use [Moco standalone runner](https://repo1.ma
 
 `java -jar moco-runner-<version>-standalone.jar -p 3000 -c login.json`
 
+### Demo android app
 
+[AndroidStartupKit](https://github.com/shane51/AndroidStartupKit)
 
 ###Next plan
-- Add globe settings
+- ~~Add globe settings~~
 - more useful scenarios
