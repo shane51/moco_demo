@@ -2,15 +2,20 @@
   {
     "description": "用Proxy增强不稳定服务器",
     "request": {
-      "uri": {
-        "match" : "/proxy/.*"
+      "uri" : {
+        "match" : "/.*"
+        },
+      "queries" : {
+        "q" : {
+          "match" : ".*"
+          }
       }
     },
     "response": {
       "proxy":
       {
-        "from" : "/proxy",
-        "to" : "http://www.github.com",
+        "from" : "/",
+        "to" : "https://api.github.com",
         "failover" : "failover.json"
       }
     }
